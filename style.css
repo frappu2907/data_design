@@ -1,0 +1,105 @@
+nav {
+    padding: 0 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: O;
+
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul a li {
+    margin-left: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    color: white;
+}    
+nav ul a li:hover {
+    border-bottom-color: #00AFFF;
+    
+}
+.presentation IMG.displayed {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.presentation IMG.displayed_2 {
+    position:absolute;
+    left: 900px;
+    top: 210px; 
+}
+.experience button {
+    background-color: #00AFFF;
+    border: none;
+	outline: none;
+	padding: 0;
+	font-size: 15px;
+	font-weight: bold;
+    padding: 12px 40px 12px 40px;
+	cursor: pointer;
+    color: white;
+    position: relative;
+    left: 550px;
+    top: 420px;
+    border-radius: 7px;
+}
+.experience button:hover {
+    background-color: #EAF7FF;
+    color: #00AFFF;
+}
+.accueil-macron img {
+    position: absolute;
+    left: 0;
+    top: 350px;
+    border-radius: 7px;
+}
+.presentation-projet {
+    padding: 80px 40px 12px 40px;
+    background-color: #EAF7FF;
+    background-size: 540px 360px;
+    margin-top: 50%;
+    width: auto;
+    height: max-content;
+}
+.presentation-projet h1 {
+    color: #00AFFF;
+    font-style: italic;
+    padding: 30px 40px 12px 40px;
+
+}
+.presentation-projet p {
+    padding: 30px 40px 12px 40px;
+}
+.presentation-projet img {
+    padding: 30px 40px 12px 40px;
+}
+.presentation-projet button {
+    background-color: #00AFFF;
+    border: none;
+	outline: none;
+	padding: 0;
+	font-size: 15px;
+	font-weight: bold;
+    padding: 12px 40px 12px 40px;
+	cursor: pointer;
+    color: white;
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+.presentation-projet button:hover {
+    background-color: #EAF7FF;
+    color: #00AFFF;
+}
+footer {
+    background-color: #00AFFF;
+    padding: 30px 40px 12px 40px;
+    text-align: right;
+    color: white;
+}
