@@ -7,9 +7,10 @@ h1 {
     padding-top: 40px;
     margin: 0 ;
 }
+
 .twitter_logo img {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     position: absolute;
     top: 20px;
     right: 20px;
