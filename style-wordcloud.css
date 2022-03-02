@@ -54,3 +54,12 @@ img {
   width: 80%;
   height: 80%;
 }
+.twitter_logo img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+  border-radius: 80px;
+}
