@@ -7,15 +7,14 @@ h1 {
     padding-top: 40px;
     margin: 0 ;
 }
-.twitter_logo {
-    width: 10px;
-    height: 10px;
+.twitter_logo img {
+    width: 30px;
+    height: 30px;
     position: absolute;
     top: 20px;
     right: 20px;
     background-color: white;
-    border-radius: 40px;
-
+    border-radius: 80px;
 }
 img{
     padding-top: 20px;
