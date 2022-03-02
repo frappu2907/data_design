@@ -1,0 +1,56 @@
+/* The sidebar menu */
+.profil-select {
+  position: absolute;
+  top: 35px;
+  left: 1120px;
+  z-index: 2;
+  border-radius: 80px;
+  border: 10px solid white;
+  background-color: white;
+}
+.profil-select img{
+  width: 80px;
+  height: 80px;
+  border-radius: 70px;
+}
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #00AFFF; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  z-index: 1;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+.sidenav a img {
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+}
+.sidenav a:first-child {
+  margin-top: 130px;
+}
+.sidenav a:last-child {
+  padding-bottom: 40px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+img {
+  width: 80%;
+  height: 80%;
+}
